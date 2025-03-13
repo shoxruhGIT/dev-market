@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-info{
+  padding: 10px;
+}
+
+.product-update__input{
+  padding: 10px;
+  outline: none;
+}
+.product-update__btn{
+  padding: 10px;
+}
+.create-product__input{
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
